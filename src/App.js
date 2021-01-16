@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
-import Todo from './Todo.js'
-import TodoForm from './TodoForm.js'
+import Todo from './Todo'
+import TodoForm from './TodoForm'
+import Counter from './Counter'
+import Spell from './Spell'
+import Timer from './Timer'
 
 function App() {
-  const [todos, setTodos] = React.useState([
+  const [todos, setTodos] = useState([
     {
       text: 'Make cookies',
       isCompleted: false
@@ -53,6 +56,9 @@ function App() {
         ))}
         <TodoForm addTodo={addTodo} />
       </div>
+      <Counter />
+      <Timer />
+      <Spell />
     </div>
   )
 }

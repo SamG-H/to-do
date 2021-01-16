@@ -1,6 +1,6 @@
 .app {
   background-color: rgb(73, 73, 104);
-  height: 100vh;
+  height: 100%;
   text-align: center;
   padding: 10px;
 }
@@ -11,7 +11,7 @@
   justify-content: center;
   color: black;
   border-radius: 4px;
-  max-width: 50%;
+  max-width: 75%;
   padding: 5px;
 }
 
@@ -48,7 +48,7 @@
   border: 0;
 }
 
-button {
+.todo-button {
   border-radius: 3px;
   background-color: rgb(13, 35, 61);
   color: white;
@@ -65,4 +65,31 @@ button {
 ::placeholder{
   opacity: 0.8;
   color: rgb(0, 0, 0);
+}
+
+.counter-button {
+  margin-top: 20px;
+  border: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  border-radius: 3px;
+  background-color: rgb(13, 35, 61);
+  color: white;
+}
+
+.counter-text {
+  margin: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  margin-top: 1px;
+  font-size: 80px;
+  color: rgb(172, 198, 241);
+}
+
+.spell {
+  font-size: 30px;
+  color: white;
 }
